@@ -1,1 +1,2 @@
-embedbase >= 0.9.9
+# embedbase >= 0.9.9
+git+https://github.com/different-ai/embedbase
