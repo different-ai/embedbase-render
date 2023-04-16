@@ -5,7 +5,7 @@ from embedbase import get_app
 from embedbase.database.supabase_db import Supabase
 from embedbase.embedding.openai import OpenAI
 
- 
+
 app = (
     get_app()
     .use_embedder(OpenAI(os.getenv("OPENAI_API_KEY")))
