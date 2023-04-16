@@ -1,0 +1,9 @@
+services:
+  # A Docker web service
+  - type: web
+    name: embedbase-render
+    env: docker
+    rootDir: .
+    healthCheckPath: /health
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
