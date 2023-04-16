@@ -1,1 +1,1 @@
-embedbase
+embedbase==0.8.9
