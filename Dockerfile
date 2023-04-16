@@ -4,5 +4,5 @@ RUN apt-get update && apt-get install -y git && apt-get clean && \
     pip install -r requirements.txt && rm requirements.txt
 COPY main.py main.py
 
-ENTRYPOINT ["uvicorn", "main:app"]
+ENTRYPOINT ["python3", "main.py"]
 CMD ["embedbase"]
