@@ -3,6 +3,7 @@ services:
     name: embedbase-render
     env: python
     plan: free
+    buildCommand: "pip install -R requirements.txt"
     startCommand: "python3 main.py"
     envVars:
       - key: PYTHON_VERSION
