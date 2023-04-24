@@ -6,6 +6,6 @@ services:
     startCommand: "python3 main.py"
     envVars:
       - key: PYTHON_VERSION
-        value: 3.10.11
+        value: 3.8.0
       - key: OPENAI_API_KEY
         sync: false
