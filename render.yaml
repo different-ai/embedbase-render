@@ -9,3 +9,4 @@ services:
         value: 3.10.11
       - key: OPENAI_API_KEY
         value: '<https://platform.openai.com/account/api-keys>'
+        sync: false
